@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Album {
+public abstract class Album implements AlbumInterface{
     private String name;
     private ArrayList<Song> songs;
 

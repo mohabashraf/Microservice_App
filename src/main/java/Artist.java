@@ -1,4 +1,4 @@
-public class Artist {
+public abstract class Artist implements ArtistInterface{
     private String name;
 
     public String getName() {

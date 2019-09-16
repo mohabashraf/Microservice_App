@@ -1,4 +1,4 @@
-public class User {
+public abstract class User implements UserInterface{
     private String name;
 
     public String getName() {

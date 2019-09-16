@@ -1,4 +1,4 @@
-public class Song {
+public abstract class Song implements SongInterface{
     private String name;
 
     public String getName() {
